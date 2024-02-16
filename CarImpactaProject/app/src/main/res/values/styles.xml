@@ -4,6 +4,8 @@
     <color name="minha_cor_primaria">#FFFFFF</color>
     <color name="minha_cor_primaria_escuro">#CCCCCC</color>
     <color name="minha_cor_de_destaque">#000000</color>
+    <color name="minha_cor_background">#FFFFFF</color>
+<!--    #ff5733-->
 
     <!-- Definição do estilo do aplicativo -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -20,6 +22,8 @@
         <item name="android:navigationBarColor">@color/minha_cor_primaria</item>
         <item name="android:windowLightNavigationBar">true</item>
         <!-- Adicione outros itens aqui, se necessário -->
+        <item name="android:windowBackground">@color/minha_cor_background</item>
+        <item name="android:colorBackground">@color/minha_cor_background</item>
     </style>
 
 
