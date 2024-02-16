@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Definição das cores personalizadas -->
-    <color name="minha_cor_primaria">#FFFFFF</color>
+    <color name="minha_cor_primaria">#3e3d3d</color>
     <color name="minha_cor_primaria_escuro">#CCCCCC</color>
-    <color name="minha_cor_de_destaque">#000000</color>
-    <color name="minha_cor_background">#FFFFFF</color>
+    <color name="minha_cor_de_destaque">#ff9461</color>
+    <color name="minha_cor_background">#3e3d3d</color>
 <!--    #ff5733-->
 
     <!-- Definição do estilo do aplicativo -->

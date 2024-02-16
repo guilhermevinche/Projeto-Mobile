@@ -16,7 +16,7 @@
         android:gravity="center"
         android:text="Cadastros"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/orange"
         android:textSize="42dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,6 +33,7 @@
         android:foregroundGravity="center"
         android:gravity="center"
         android:text="N pessoas cadastrados"
+        android:textColor="@color/white"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,6 +49,7 @@
         app:layout_constraintHorizontal_bias="0.956"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/orange"
         app:layout_constraintVertical_bias="0.023" />
 
     <ListView
@@ -58,6 +60,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="22dp"
         android:layout_marginBottom="16dp"
+        android:background="@color/orange"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

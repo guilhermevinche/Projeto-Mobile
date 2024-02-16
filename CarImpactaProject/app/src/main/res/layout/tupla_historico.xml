@@ -16,7 +16,7 @@
             android:layout_weight="1"
             android:text="yyyy/mm/dd"
             android:textAlignment="center"
-            android:textColor="@color/gray"
+            android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="italic" />
 
@@ -27,7 +27,7 @@
             android:layout_weight="1"
             android:text="IDA/VOLTA"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="16sp" />
 
         <TextView
@@ -37,7 +37,7 @@
             android:layout_weight="1"
             android:text="R$: --,--"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="16sp" />
     </LinearLayout>
 </LinearLayout>

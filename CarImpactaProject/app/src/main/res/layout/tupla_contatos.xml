@@ -16,7 +16,7 @@
             android:layout_weight="1"
             android:text="AB"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="@color/orange"
             android:textSize="40sp"
             android:textStyle="bold" />
 
@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Nome + Sobrenome"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="16sp" />
 
         <TextView
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Apelido"
-            android:textColor="#838383"
+            android:textColor="@color/white"
             android:textStyle="italic" />
     </LinearLayout>
 </LinearLayout>

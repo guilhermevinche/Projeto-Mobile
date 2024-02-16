@@ -31,7 +31,7 @@
                 android:gravity="center"
                 android:text="Nome da Pessoa"
                 android:textAlignment="center"
-                android:textColor="@color/black"
+                android:textColor="@color/orange"
                 android:textSize="42dp"
                 android:textStyle="bold" />
 
@@ -44,6 +44,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="183dp"
                 android:text="Vulgo "
+                android:textColor="@color/white"
                 android:textAlignment="center"
                 android:textSize="16sp" />
 
@@ -58,7 +59,7 @@
                 android:layout_marginBottom="13dp"
                 android:text="Dívida total R$: --,--"
                 android:textAlignment="viewStart"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <TextView
@@ -71,7 +72,7 @@
                 android:layout_marginBottom="32dp"
                 android:text="Paga R$: --,-- por viagem"
                 android:textAlignment="viewStart"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <ListView
@@ -82,17 +83,18 @@
                 android:layout_marginStart="42dp"
                 android:layout_marginEnd="43dp"
                 android:layout_marginBottom="39dp"
-                android:background="#F3F3F3" />
+                android:background="@color/orange" />
 
             <Button
                 android:id="@+id/btnQuitarDivida"
-                android:layout_width="wrap_content"
+                android:layout_width="322dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:layout_marginStart="42dp"
                 android:layout_marginEnd="249dp"
                 android:layout_marginBottom="39dp"
                 android:gravity="center"
+                android:background="@color/orange"
                 android:text="Quitar dívida" />
         </LinearLayout>
     </ScrollView>

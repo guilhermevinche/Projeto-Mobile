@@ -30,7 +30,7 @@
                 android:layout_marginTop="20dp"
                 android:text="NOME COMPLETO"
                 android:textAlignment="center"
-                android:textColor="@color/black"
+                android:textColor="@color/orange"
                 android:textSize="34sp"
                 android:textStyle="bold" />
 
@@ -42,7 +42,7 @@
                 android:layout_marginTop="10dp"
                 android:text="Primeiro nome"
                 android:textAlignment="viewStart"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
 
             <EditText
@@ -52,6 +52,7 @@
                 android:layout_marginHorizontal="20dp"
                 android:ems="10"
                 android:inputType="text"
+                android:textColor="@color/white"
                 android:text="Nome" />
 
             <TextView
@@ -62,7 +63,7 @@
                 android:layout_marginTop="5dp"
                 android:text="Sobrenome"
                 android:textAlignment="viewStart"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
 
             <EditText
@@ -73,6 +74,7 @@
                 android:layout_marginTop="5dp"
                 android:ems="10"
                 android:inputType="text"
+                android:textColor="@color/white"
                 android:text="Sobrenome" />
 
             <TextView
@@ -83,7 +85,7 @@
                 android:layout_marginTop="5dp"
                 android:text="Apelido"
                 android:textAlignment="viewStart"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
 
             <EditText
@@ -94,6 +96,7 @@
                 android:layout_marginTop="5dp"
                 android:ems="10"
                 android:inputType="text"
+                android:textColor="@color/white"
                 android:text="Apelido" />
 
             <TextView
@@ -104,7 +107,7 @@
                 android:layout_marginTop="5dp"
                 android:text="Telefone"
                 android:textAlignment="viewStart"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
 
             <EditText
@@ -115,6 +118,7 @@
                 android:layout_marginTop="5dp"
                 android:ems="10"
                 android:inputType="number"
+                android:textColor="@color/white"
                 android:text="Telefone (DD) 9XXXX-XXXX" />
 
             <TextView
@@ -125,7 +129,7 @@
                 android:layout_marginTop="5dp"
                 android:text="Rua"
                 android:textAlignment="viewStart"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
 
             <EditText
@@ -136,6 +140,7 @@
                 android:layout_marginTop="5dp"
                 android:ems="10"
                 android:inputType="text"
+                android:textColor="@color/white"
                 android:text="Rua" />
 
             <TextView
@@ -146,7 +151,7 @@
                 android:layout_marginTop="5dp"
                 android:text="Bairro"
                 android:textAlignment="viewStart"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
 
             <EditText
@@ -157,6 +162,7 @@
                 android:layout_marginTop="5dp"
                 android:ems="10"
                 android:inputType="text"
+                android:textColor="@color/white"
                 android:text="Bairro" />
 
             <TextView
@@ -167,7 +173,7 @@
                 android:layout_marginTop="5dp"
                 android:text="Número"
                 android:textAlignment="viewStart"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
 
             <EditText
@@ -178,6 +184,7 @@
                 android:layout_marginTop="5dp"
                 android:ems="10"
                 android:inputType="number"
+                android:textColor="@color/white"
                 android:text="Número" />
 
             <TextView
@@ -188,7 +195,7 @@
                 android:layout_marginTop="5dp"
                 android:text="Valor pago por corrida"
                 android:textAlignment="viewStart"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
 
             <EditText
@@ -199,6 +206,7 @@
                 android:layout_marginTop="5dp"
                 android:ems="10"
                 android:inputType="numberDecimal"
+                android:textColor="@color/white"
                 android:text="R$: --,--" />
 
             <LinearLayout
@@ -215,6 +223,7 @@
                     android:layout_marginRight="80dp"
                     android:layout_weight="1"
                     android:text="EXCLUIR"
+                    android:background="@color/white"
                     android:textColor="#FF0000" />
 
                 <Button
@@ -222,6 +231,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="@color/orange"
                     android:text="ATUALIZAR" />
             </LinearLayout>
         </LinearLayout>
