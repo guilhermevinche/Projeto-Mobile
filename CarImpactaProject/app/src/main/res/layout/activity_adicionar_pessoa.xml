@@ -40,8 +40,9 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Nome"
-            android:textColorHint="@color/white"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
 
         <EditText
             android:id="@+id/textAddSobrenome"
@@ -50,6 +51,7 @@
             android:ems="10"
             android:hint="Sobrenome"
             android:textColorHint="@color/white"
+            android:textColor="@color/white"
             android:inputType="text" />
 
         <EditText
@@ -59,6 +61,7 @@
             android:ems="10"
             android:hint="Apelido"
             android:textColorHint="@color/white"
+            android:textColor="@color/white"
             android:inputType="text" />
 
         <EditText
@@ -68,6 +71,7 @@
             android:ems="10"
             android:hint="Telefone"
             android:textColorHint="@color/white"
+            android:textColor="@color/white"
             android:inputType="phone" />
 
         <EditText
@@ -77,6 +81,7 @@
             android:ems="10"
             android:hint="Rua"
             android:textColorHint="@color/white"
+            android:textColor="@color/white"
             android:inputType="text" />
 
         <EditText
@@ -86,6 +91,7 @@
             android:ems="10"
             android:hint="Bairro"
             android:textColorHint="@color/white"
+            android:textColor="@color/white"
             android:inputType="text" />
 
         <EditText
@@ -95,6 +101,7 @@
             android:ems="10"
             android:hint="Número"
             android:textColorHint="@color/white"
+            android:textColor="@color/white"
             android:inputType="number" />
 
         <EditText
@@ -104,6 +111,7 @@
             android:ems="10"
             android:hint="Valor pago por viagem"
             android:textColorHint="@color/white"
+            android:textColor="@color/white"
             android:inputType="number|numberDecimal" />
 
         <Button

@@ -30,7 +30,6 @@
         android:layout_marginRight="8dp"
         android:layout_weight="1"
         android:textColor="@color/white"
-        android:background=""
         android:text="Volta" />
 
 </LinearLayout>

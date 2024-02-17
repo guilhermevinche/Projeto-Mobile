@@ -3,7 +3,7 @@
     <!-- Definição das cores personalizadas -->
     <color name="minha_cor_primaria">#3e3d3d</color>
     <color name="minha_cor_primaria_escuro">#CCCCCC</color>
-    <color name="minha_cor_de_destaque">#ff9461</color>
+    <color name="minha_cor_de_destaque">#ffffff</color>
     <color name="minha_cor_background">#3e3d3d</color>
 <!--    #ff5733-->
 
